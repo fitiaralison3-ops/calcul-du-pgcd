@@ -20,5 +20,5 @@ pgcd  -  17.03.2026
 14      b PREND_LA_VALEUR r
 15      FIN_TANT_QUE
 16    AFFICHER Le pgcd est  
-17    AFFICHER b
+17    AFFICHER a
 18  FIN_ALGORITHME
