@@ -1,0 +1,24 @@
+pgcd  -  17.03.2026
+
+******************************************
+
+******************************************
+
+1   FONCTIONS_UTILISEES
+2   VARIABLES
+3     a EST_DU_TYPE NOMBRE
+4     b EST_DU_TYPE NOMBRE
+5     r EST_DU_TYPE NOMBRE
+6   DEBUT_ALGORITHME
+7     AFFICHER "Entrer les 2 nombres"
+8     LIRE a
+9     LIRE b
+10    TANT_QUE (r=0) FAIRE
+11      DEBUT_TANT_QUE
+12      r PREND_LA_VALEUR a%b
+13      a PREND_LA_VALEUR b
+14      b PREND_LA_VALEUR r
+15      FIN_TANT_QUE
+16    AFFICHER Le pgcd est  
+17    AFFICHER b
+18  FIN_ALGORITHME
